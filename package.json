@@ -2,7 +2,8 @@
   "name": "0xgasless-agentkit-monorepo",
   "private": true,
   "workspaces": [
-    "agentkit-core"
+    "agentkit-core",
+    "agentkit-demo"
   ],
   "scripts": {
     "build": "turbo run build",
@@ -26,6 +27,5 @@
     "turbo": "^2.3.3",
     "typedoc": "^0.27.2",
     "typescript": "^5.4.5"
-  },
-  "packageManager": ">bun@1.1.19"
+  }
 }
